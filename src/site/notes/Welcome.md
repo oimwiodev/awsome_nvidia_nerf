@@ -13,4 +13,4 @@ This website is a one man operation that I had made for myself seeing that there
 > Alternatively, installing Nerfstudio under WSL2 (temporary unofficial guide [here](https://gist.github.com/SharkWipf/0a3fc1be3ea88b0c9640db6ce15b44b9), not guaranteed to work) is also an option, but this comes with its own set of caveats.
 
 Summary for Nerf engines I was able to make work easily:
-* [[NerfStudio\|NerfStudio]]
+* [[Nerfstudio/NerfStudio\|NerfStudio]]
