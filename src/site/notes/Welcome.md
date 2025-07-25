@@ -5,7 +5,7 @@
 
 Hi!
 Many Thanks to [the Digital Garden for Obsidian](https://dg-docs.ole.dev/), [Obsidian](https://obsidian.md/) and [Vercel](https://vercel.com)
-This website is a one man operation that I had made for myself seeing that there was no progress to make [NerfStudio](https://docs.nerf.studio/quickstart/installation.html) work easily with windows
+This website is a one man operation that I had made for myself seeing that there was no progress to make [NerfStudio](https://docs.nerf.studio/index.html) work easily with windows
 > [!PROOF]
 > Nerfstudio on Windows is less tested and more fragile, due to way more moving parts outside of Nerfstudio’s control.  
 > The instructions also tend to break over time as updates to different Windows packages happen.  
