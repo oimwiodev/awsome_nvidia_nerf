@@ -14,4 +14,3 @@ This website is a one man operation that I had made for myself seeing that there
 
 Summary for Nerf engines I was able to make work easily:
 * [[NerfStudio\|NerfStudio]]
-* 
