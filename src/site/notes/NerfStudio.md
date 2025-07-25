@@ -8,7 +8,7 @@ Nerfstudio provides a simple API that allows for a simplified end-to-end process
 # Start Interactive container
 
 > [!IMPORTANT] Important
-> C:\nerf_projects\ to /workspace/
+> C:\nerf_projects\ points to /workspace/
 
 ```
 docker run --gpus all `
