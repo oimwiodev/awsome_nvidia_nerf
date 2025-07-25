@@ -11,3 +11,4 @@ Many Thanks to [the Digital Garden for Obsidian](https://dg-docs.ole.dev/), [Obs
 
 Summary for Nerf engines I was able to make work easily:
 * [[Nerfstudio/NerfStudio\|NerfStudio]]
+	* [[Nerfstudio/Lerf\|Lerf]]

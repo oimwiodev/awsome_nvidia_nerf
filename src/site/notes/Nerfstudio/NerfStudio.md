@@ -8,7 +8,6 @@
 > [!INFORMATION] About
 > "Nerfstudio provides a simple API that allows for a simplified end-to-end process of creating, training, and testing NeRFs. The library supports a **more interpretable implementation of NeRFs by modularizing each component.** With more modular NeRFs, we hope to create a more user-friendly experience in exploring the technology."
 > From: https://docs.nerf.studio/
-> 
 
 > [!DANGER] Important step if you plan to use a video
 > It's important move slowly while shooting a video to be processed as colmap is quite picky about the blurriness of photos and videos
@@ -38,7 +37,6 @@ docker run --gpus all `
 ```
 apt update
 apt install -y git
-python3 -m pip install git+https://github.com/kerrj/lerf
 ```
 
 # Garther dataset
