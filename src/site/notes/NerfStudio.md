@@ -39,28 +39,3 @@ ns-train nerfacto --data /workspace/camera_pose/
 ```
 
 ```
-Viewer running locally at: http://localhost:7007 (listening on 0.0.0.0)
-╭────────────────────────────────── 🎉 Training Finished 🎉 ──────────────────────────────────╮
-│                        ╷                                                                    │
-│   Config File          │ outputs/camera_pose/nerfacto/2025-07-25_182644/config.yml          │
-│   Checkpoint Directory │ outputs/camera_pose/nerfacto/2025-07-25_182644/nerfstudio_models   │
-│                        ╵                                                                    │
-╰─────────────────────────────────────────────────────────────────────────────────────────────╯
-                                                   Use ctrl+c to quit
-(viser) Connection opened (4, 2 total), 846 persistent messages
-(viser) Connection closed (4, 1 total)
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/viser/infra/_infra.py", line 546, in wrapped
-    inner()
-  File "/usr/local/lib/python3.10/dist-packages/viser/infra/_infra.py", line 366, in <lambda>
-    lambda: client_connection._handle_incoming_message(
-  File "/usr/local/lib/python3.10/dist-packages/viser/infra/_infra.py", line 139, in _handle_incoming_message
-    cb(client_id, message)
-  File "/usr/local/lib/python3.10/dist-packages/viser/_viser.py", line 521, in handle_camera_message
-    camera_cb(client.camera)
-  File "/usr/local/lib/python3.10/dist-packages/nerfstudio/viewer/viewer.py", line 363, in _
-    self.render_statemachines[client.client_id].action(RenderAction("move", camera_state))
-KeyError: 4
-(viser) Connection opened (5, 2 total), 846 persistent messages
-(viser) Connection closed (0, 1 total)
-(viser) Connection opened (6, 2 total), 846 persistent messages
