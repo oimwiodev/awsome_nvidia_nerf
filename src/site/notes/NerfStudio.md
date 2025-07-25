@@ -38,6 +38,12 @@ python3 -m pip install git+https://github.com/kerrj/lerf
 ```
 
 # Garther dataset
+## Using photos (most compatible and easy but gives out possibly worse results)
+
+> [!IMPORTANT] Important step while shooting
+> It's important move slowly while shooting a video to be processed as colmap is quite picky about the blurriness of photos and videos
+
+
 ## Using a video (most compatible and easy but gives out possibly worse results)
 
 > [!IMPORTANT] Important step while shooting
