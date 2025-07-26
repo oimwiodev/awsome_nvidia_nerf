@@ -38,11 +38,11 @@ Step 4: Agree to [[Assets/UAC\|UAC]]
 
 Step 5: Follow wizard through install
 
-![Pasted image 20250726113250.png](/img/user/Pasted%20image%2020250726113250.png)
+![Pasted image 20250726113250.png](/img/user/Assets/Pasted%20image%2020250726113250.png)
 
 Step 6: Open Docker Desktop
 
-![{AF97A6D9-732B-4623-BD3A-D82B478665F8}.png](/img/user/%7BAF97A6D9-732B-4623-BD3A-D82B478665F8%7D.png)
+![{AF97A6D9-732B-4623-BD3A-D82B478665F8}.png](/img/user/Assets/%7BAF97A6D9-732B-4623-BD3A-D82B478665F8%7D.png)
 
 Step 7: Click Skip or sign in
 
@@ -51,7 +51,7 @@ Step 7: Click Skip or sign in
 > From what we can tell, creating a Docker account doesn't add any feature
 
 
-![Pasted image 20250726113601.png](/img/user/Pasted%20image%2020250726113601.png)
+![Pasted image 20250726113601.png](/img/user/Assets/Pasted%20image%2020250726113601.png)
 # Start Interactive container
 
 > [!IMPORTANT] Important
@@ -86,13 +86,17 @@ apt install -y git
 > [!IMPORTANT] Important step while shooting
 > It's important move slowly while shooting a video to be processed as colmap is quite picky about the blurriness of photos and videos
 
-
+```
+ns-process-data images --data /workspace/photos --output-dir /workspace/exportedphotonerf
+```
 ## Using a video (most compatible and easy but gives out possibly worse results)
 
 > [!IMPORTANT] Important step while shooting
 > It's important move slowly while shooting a video to be processed as colmap is quite picky about the blurriness of photos and videos
 
-ns-train nerfacto --data /workspace/camera_pose/
+```
+ns-process-data video --data /workspace/video.mp4 --output-dir /workspace/exportedvideonerf
+```
 # Run colmap analysis
 ```
 
