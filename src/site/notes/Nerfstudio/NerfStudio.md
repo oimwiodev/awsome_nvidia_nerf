@@ -48,7 +48,7 @@ Step 7: Click Skip or sign in
 
 
 > [!WARNING]  Information about Docker accounts
-> From what we can tell, creating a Docker account doesn't add any feature
+> From what we can tell, creating a Docker account doesn't add any features
 
 
 ![Pasted image 20250726113601.png](/img/user/Assets/Pasted%20image%2020250726113601.png)
