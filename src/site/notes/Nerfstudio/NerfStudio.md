@@ -52,10 +52,11 @@ Step 7: Click Skip or sign in
 
 
 ![Pasted image 20250726113601.png](/img/user/Assets/Pasted%20image%2020250726113601.png)
-# Start Interactive container
+# Start Interactive container (First time install)
 
 > [!IMPORTANT] Important
 > C:\nerf_projects\ points to /workspace/
+> 
 
 ```
 docker run --gpus all `
@@ -64,6 +65,7 @@ docker run --gpus all `
     -v "C:\.cache:/home/user/.cache/" `
     -p 7007:7007 `
     -it `
+    --name nerfstudio `
     -v "C:\nerf_renders:/renders/" `
     -v "C:\nerf_outputs:/outputs/" `
     --shm-size=12gb `
@@ -153,5 +155,9 @@ Zen Browser
 > The text highlighted in red shows the completion percentage of the Nerf
 > 
 > ![Pasted image 20250726205520.png](/img/user/Assets/Pasted%20image%2020250726205520.png)
+> 
+> The text highlighted in red shows the Estimated Time to Finish (Arrival) (ETA)
+> 
+> ![Pasted image 20250726232653.png](/img/user/Assets/Pasted%20image%2020250726232653.png)
 
-ns-render camera-path --load-config outputs/exportedvideonerf/nerfacto/2025-07-26_194634/config.yml --camera-path-filename /workspace/exportedvideonerf/camera_paths/2025-07-26-19-46-54.json --output-path renders/exportedvideonerf/2025-07-26-19-46-54.mp4
+Made with ❤️ in [Morocco](https://www.google.com/search?q=Morocco&client=firefox-b-d&sca_esv=0c2e3acf227f4533&sxsrf=AE3TifPxQHRmqHBLU2o4tpsh0hnbHAfeew%3A1753568930760&ei=olaFaJOgLoqIkdUP2br16AM&ved=0ahUKEwiT-dOpyduOAxUKRKQEHVldHT0Q4dUDCBA&uact=5&oq=Morocco&gs_lp=Egxnd3Mtd2l6LXNlcnAiB01vcm9jY28yChAjGIAEGCcYigUyChAuGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyDhAuGIAEGMcBGMsBGK8BSP8fULAFWP8JcAF4AZABAJgBfaAB0QKqAQMwLjO4AQPIAQD4AQGYAgSgAt8CwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAgYQABgHGB7CAgcQLhiABBgKwgIHEAAYgAQYCsICDRAuGIAEGMcBGAoYrwGYAwCIBgGQBgySBwMxLjOgB7slsgcDMC4zuAfbAsIHAzItNMgHDQ&sclient=gws-wiz-serp) 
