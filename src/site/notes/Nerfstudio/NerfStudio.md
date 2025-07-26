@@ -18,11 +18,11 @@
 
 Step 1: Click the "Download Docker Desktop" Button
 
-![Pasted image 20250726111336.png](/img/user/Pasted%20image%2020250726111336.png)
+![Pasted image 20250726111336.png](/img/user/Assets/Pasted%20image%2020250726111336.png)
 
 Step 2: Choose the appropriate version for your Windows PC
 
-![Pasted image 20250726111701.png](/img/user/Pasted%20image%2020250726111701.png)
+![Pasted image 20250726111701.png](/img/user/Assets/Pasted%20image%2020250726111701.png)
 
 
 > [!WARNING] Warning
@@ -30,7 +30,11 @@ Step 2: Choose the appropriate version for your Windows PC
 
 Step 3: Install it
 
+![Pasted image 20250726112642.png](/img/user/Assets/Pasted%20image%2020250726112642.png)
 
+Agree to [[Assets/UAC\|UAC]]
+
+![{10638988-A9DF-466A-BAD2-22A6A2539BCC}.png](/img/user/Assets/%7B10638988-A9DF-466A-BAD2-22A6A2539BCC%7D.png)
 # Start Interactive container
 
 > [!IMPORTANT] Important
