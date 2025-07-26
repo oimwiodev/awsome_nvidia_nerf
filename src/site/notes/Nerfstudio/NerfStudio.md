@@ -108,8 +108,16 @@ ns-process-data video --data /workspace/sourcevideo/video.mp4 --output-dir /work
 > [!WARNING] WARNING
 > Use the command below if you used the "Using a video (most compatible and easy but gives out possibly worse results)" method, or else it won't work!
 
+If you used a video
+
 ```
 ns-train nerfacto --data /workspace/exportedvideonerf
+```
+
+If you used photos
+
+```
+ns-train nerfacto --data /workspace/exportedphotonerf
 ```
 
 > [!WARNING] WARNING
