@@ -63,8 +63,9 @@ docker run --gpus all `
     -v "C:\nerf_projects:/workspace/" `
     -v "C:\.cache:/home/user/.cache/" `
     -p 7007:7007 `
-    --rm `
     -it `
+    -v "C:\nerf_renders:/renders/" `
+    -v "C:\nerf_outputs:/outputs/" `
     --shm-size=12gb `
     ghcr.io/nerfstudio-project/nerfstudio:latest
 ```
