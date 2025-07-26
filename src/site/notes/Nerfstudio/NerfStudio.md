@@ -80,22 +80,29 @@ apt update
 apt install -y git
 ```
 
-# Garther dataset
+# Gather dataset
 ## Using photos (most compatible and easy but gives out possibly worse results)
 
 > [!IMPORTANT] Important step while shooting
-> It's important move slowly while shooting a video to be processed as colmap is quite picky about the blurriness of photos and videos
+> It's important move slowly while shooting photos to be processed as colmap is quite picky about the blurriness of photos
+
+> [!QUESTION] Where to put your photos?
+> You should put you source photos into C:\nerf_projects\sourcephotos
 
 ```
-ns-process-data images --data /workspace/photos --output-dir /workspace/exportedphotonerf
+ns-process-data images --data /workspace/sourcephotos --output-dir /workspace/exportedphotonerf
 ```
+
 ## Using a video (most compatible and easy but gives out possibly worse results)
 
 > [!IMPORTANT] Important step while shooting
-> It's important move slowly while shooting a video to be processed as colmap is quite picky about the blurriness of photos and videos
+> It's important move slowly while shooting a video to be processed as colmap is quite picky about the blurriness of videos
+
+> [!QUESTION] Where to put your videos?
+> You should put you source photos into C:\nerf_projects\sourcevideo
 
 ```
-ns-process-data video --data /workspace/video.mp4 --output-dir /workspace/exportedvideonerf
+ns-process-data video --data /workspace/sourcevideo/video.mp4 --output-dir /workspace/exportedvideonerf
 ```
 # Run colmap analysis
 ```
