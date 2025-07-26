@@ -3,6 +3,7 @@
 ---
 
 ---
+![logo-dark.png](/img/user/Assets/logo-dark.png)
 # Context
 
 > [!INFORMATION] About
@@ -44,7 +45,7 @@ Step 6: Open Docker Desktop
 
 ![{AF97A6D9-732B-4623-BD3A-D82B478665F8}.png](/img/user/Assets/%7BAF97A6D9-732B-4623-BD3A-D82B478665F8%7D.png)
 
-Step 7: Click Skip or sign in
+Step 7: Click Skip or Sign in
 
 
 > [!WARNING]  Information about Docker accounts
@@ -54,9 +55,11 @@ Step 7: Click Skip or sign in
 ![Pasted image 20250726113601.png](/img/user/Assets/Pasted%20image%2020250726113601.png)
 # Start Interactive container (First time install)
 
-> [!IMPORTANT] Important
+> [!IMPORTANT] Important note about mounted folders and where they point
 > C:\nerf_projects\ points to /workspace/
-> 
+> C:\nerf_outputs points to /outputs/
+> C:\nerf_renders points to /renders/
+> This makes accessing input and output folders in Nerfstudio easier.
 
 ```
 docker run --gpus all `
@@ -146,7 +149,7 @@ Zen Browser
 
 
 > [!WARNING] WARNING
-> If you don't see anything on the screen, please wait until your terminal says:
+> If you don't see anything on your browser, please wait until your terminal looks like this:
 > 
 > ![{9240933E-126C-4F27-B13F-3DEA6A7CFC06}.png](/img/user/Assets/%7B9240933E-126C-4F27-B13F-3DEA6A7CFC06%7D.png)
 
@@ -162,3 +165,4 @@ Zen Browser
 
 
 Made with ❤️ in [Morocco](https://www.google.com/search?q=Morocco&client=firefox-b-d&sca_esv=0c2e3acf227f4533&sxsrf=AE3TifPxQHRmqHBLU2o4tpsh0hnbHAfeew%3A1753568930760&ei=olaFaJOgLoqIkdUP2br16AM&ved=0ahUKEwiT-dOpyduOAxUKRKQEHVldHT0Q4dUDCBA&uact=5&oq=Morocco&gs_lp=Egxnd3Mtd2l6LXNlcnAiB01vcm9jY28yChAjGIAEGCcYigUyChAuGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyDhAuGIAEGMcBGMsBGK8BSP8fULAFWP8JcAF4AZABAJgBfaAB0QKqAQMwLjO4AQPIAQD4AQGYAgSgAt8CwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAgYQABgHGB7CAgcQLhiABBgKwgIHEAAYgAQYCsICDRAuGIAEGMcBGAoYrwGYAwCIBgGQBgySBwMxLjOgB7slsgcDMC4zuAfbAsIHAzItNMgHDQ&sclient=gws-wiz-serp) 
+No AI chatbot was used to write these sentences (but not the commands)
