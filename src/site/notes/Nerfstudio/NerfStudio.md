@@ -137,7 +137,7 @@ Zen Browser
 ![Pasted image 20250726204752.png](/img/user/Assets/Pasted%20image%2020250726204752.png)
 
 > [!WARNING] WARNING
-> If you don't see anything on your browser, please wait until your terminal shows aa green bar at the bottom saying ![{DB684E24-8831-4CE2-95FA-3957C8F4A46B}.png](/img/user/%7BDB684E24-8831-4CE2-95FA-3957C8F4A46B%7D.png) like this:
+> If you don't see anything on your browser, please wait until your terminal shows aa green bar at the bottom saying ![{DB684E24-8831-4CE2-95FA-3957C8F4A46B}.png](/img/user/Assets/%7BDB684E24-8831-4CE2-95FA-3957C8F4A46B%7D.png) like this:
 > 
 > ![{9240933E-126C-4F27-B13F-3DEA6A7CFC06}.png](/img/user/Assets/%7B9240933E-126C-4F27-B13F-3DEA6A7CFC06%7D.png)
 
