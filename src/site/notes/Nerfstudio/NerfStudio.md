@@ -104,7 +104,53 @@ ns-process-data images --data /workspace/sourcephotos --output-dir /workspace/ex
 ```
 ns-process-data video --data /workspace/sourcevideo/video.mp4 --output-dir /workspace/exportedvideonerf
 ```
-# Run colmap analysis
-```
+
+# Train and server Web UI
+
+
+> [!WARNING] WARNING
+> Use the command below if you used the "Using a video (most compatible and easy but gives out possibly worse results)" method, or else it won't work!
 
 ```
+ns-train nerfacto --data /workspace/exportedvideonerf
+```
+
+
+> [!WARNING] WARNING
+> Please do not close this window or else you will stop the training
+> 
+> ![{AEDB6E3E-A005-4BB1-B4A7-38B14922ED61}.png](/img/user/Assets/%7BAEDB6E3E-A005-4BB1-B4A7-38B14922ED61%7D.png)
+
+
+> [!INFORMATION] How to open Web UI?
+> The Web UI runs at localhost:7007
+> 
+> Step 1: Locate and click one the address/search bar in your browser
+> Google Chrome
+![Pasted image 20250726203718.png](/img/user/Assets/Pasted%20image%2020250726203718.png)
+Zen Browser
+![Pasted image 20250726204006.png](/img/user/Assets/Pasted%20image%2020250726204006.png)
+Step 2: Navigate to localhost:7007
+Google Chrome
+![Pasted image 20250726204225.png](/img/user/Assets/Pasted%20image%2020250726204225.png)
+Zen Browser
+![Pasted image 20250726204133.png](/img/user/Assets/Pasted%20image%2020250726204133.png)
+Step 3: Press Enter
+Google Chrome
+![Pasted image 20250726204742.png](/img/user/Assets/Pasted%20image%2020250726204742.png)
+Zen Browser
+![Pasted image 20250726204752.png](/img/user/Assets/Pasted%20image%2020250726204752.png)
+
+
+> [!WARNING] WARNING
+> If you don't see anything on the screen, please wait until your terminal says:
+> 
+> ![{9240933E-126C-4F27-B13F-3DEA6A7CFC06}.png](/img/user/Assets/%7B9240933E-126C-4F27-B13F-3DEA6A7CFC06%7D.png)
+
+
+> [!NOTE] Understanding the command prompt
+> The text highlighted in red shows the completion percentage of the Nerf
+> 
+> ![Pasted image 20250726205520.png](/img/user/Assets/Pasted%20image%2020250726205520.png)
+
+ns-render camera-path --load-config outputs/exportedvideonerf/nerfacto/2025-07-26_194634/config.yml --camera-path-filename /workspace/exportedvideonerf/camera_paths/2025-07-26-19-46-54.json --output-path renders/exportedvideonerf/2025-07-26-19-46-54.mp4
