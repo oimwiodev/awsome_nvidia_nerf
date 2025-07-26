@@ -11,6 +11,26 @@
 
 > [!DANGER] Important step if you plan to use a video
 > It's important move slowly while shooting a video to be processed as colmap is quite picky about the blurriness of photos and videos
+
+# Setup Docker Desktop 
+
+[Link to docker's official website](https://www.docker.com/products/docker-desktop/)
+
+Step 1: Click the "Download Docker Desktop" Button
+
+![Pasted image 20250726111336.png](/img/user/Pasted%20image%2020250726111336.png)
+
+Step 2: Choose the appropriate version for your Windows PC
+
+![Pasted image 20250726111701.png](/img/user/Pasted%20image%2020250726111701.png)
+
+
+> [!WARNING] Warning
+> Currently We haven't made a Macos (due to lack of hardwaare) or Linux guide (due to lack of experience)! Please do not report issues involving those setups!
+
+Step 3: Install it
+
+
 # Start Interactive container
 
 > [!IMPORTANT] Important
