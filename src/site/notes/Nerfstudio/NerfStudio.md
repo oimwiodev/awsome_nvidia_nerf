@@ -26,7 +26,7 @@ Step 2: Choose the appropriate version for your Windows PC
 
 
 > [!WARNING] Warning
-> Currently We haven't made a Macos (due to lack of hardwaare) or Linux guide (due to lack of experience)! Please do not report issues involving those setups!
+> Currently We haven't made a macOS (due to lack of hardwaare) or Linux guide (due to lack of experience)! Please do not report issues involving those setups!
 
 Step 3: Install it
 
