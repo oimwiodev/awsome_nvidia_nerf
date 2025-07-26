@@ -25,7 +25,6 @@ Step 2: Choose the appropriate version for your Windows PC
 
 ![Pasted image 20250726111701.png](/img/user/Assets/Pasted%20image%2020250726111701.png)
 
-
 > [!WARNING] Warning
 > Currently We haven't made a macOS (due to lack of hardwaare) or Linux guide (due to lack of experience)! Please do not report issues involving those setups!
 
@@ -47,10 +46,8 @@ Step 6: Open Docker Desktop
 
 Step 7: Click Skip or Sign in
 
-
 > [!WARNING]  Information about Docker accounts
 > From what we can tell, creating a Docker account doesn't add any features
-
 
 ![Pasted image 20250726113601.png](/img/user/Assets/Pasted%20image%2020250726113601.png)
 # Start Interactive container (First time install)
@@ -75,17 +72,14 @@ docker run --gpus all `
     ghcr.io/nerfstudio-project/nerfstudio:latest
 ```
 
-
 > [!WARNING] WARNING
 > Our script uses C:\nerf_projects\ which is the SYSTEM PATH TO AVOID COMPATIBILITY ISSUES INVOLVING THE WINDOWS USERNAME
-
 # Update repository and install dependencies
 
 ```
 apt update
 apt install -y git
 ```
-
 # Gather dataset
 ## Using photos (most compatible and easy but gives out possibly worse results)
 
@@ -98,7 +92,6 @@ apt install -y git
 ```
 ns-process-data images --data /workspace/sourcephotos --output-dir /workspace/exportedphotonerf
 ```
-
 ## Using a video (most compatible and easy but gives out possibly worse results)
 
 > [!IMPORTANT] Important step while shooting
@@ -110,9 +103,7 @@ ns-process-data images --data /workspace/sourcephotos --output-dir /workspace/ex
 ```
 ns-process-data video --data /workspace/sourcevideo/video.mp4 --output-dir /workspace/exportedvideonerf
 ```
-
 # Train and server Web UI
-
 
 > [!WARNING] WARNING
 > Use the command below if you used the "Using a video (most compatible and easy but gives out possibly worse results)" method, or else it won't work!
@@ -121,12 +112,10 @@ ns-process-data video --data /workspace/sourcevideo/video.mp4 --output-dir /work
 ns-train nerfacto --data /workspace/exportedvideonerf
 ```
 
-
 > [!WARNING] WARNING
 > Please do not close this window or else you will stop the training
 > 
 > ![{AEDB6E3E-A005-4BB1-B4A7-38B14922ED61}.png](/img/user/Assets/%7BAEDB6E3E-A005-4BB1-B4A7-38B14922ED61%7D.png)
-
 
 > [!INFORMATION] How to open Web UI?
 > The Web UI runs at localhost:7007
@@ -147,12 +136,10 @@ Google Chrome
 Zen Browser
 ![Pasted image 20250726204752.png](/img/user/Assets/Pasted%20image%2020250726204752.png)
 
-
 > [!WARNING] WARNING
-> If you don't see anything on your browser, please wait until your terminal looks like this:
+> If you don't see anything on your browser, please wait until your terminal shows aa green bar at the bottom saying ![{DB684E24-8831-4CE2-95FA-3957C8F4A46B}.png](/img/user/%7BDB684E24-8831-4CE2-95FA-3957C8F4A46B%7D.png) like this:
 > 
 > ![{9240933E-126C-4F27-B13F-3DEA6A7CFC06}.png](/img/user/Assets/%7B9240933E-126C-4F27-B13F-3DEA6A7CFC06%7D.png)
-
 
 > [!NOTE] Understanding the command prompt
 > The text highlighted in red shows the completion percentage of the Nerf
@@ -163,6 +150,20 @@ Zen Browser
 > 
 > ![Pasted image 20250726232653.png](/img/user/Assets/Pasted%20image%2020250726232653.png)
 
+# Compatibility
+
+> [!QUESTION] Important note about GPU compatibility
+> We are still not sure about GTX 10XX compatibility
+> as well as RTX 50XX compatibility?
+>As of the time of writing 7/27/2025 12:16:32 GMT+1
+
+| GPU Series   | CUDA arch (from table) | Supported (based on table entry) | Notes                                                                   |
+| :----------- | :--------------------- | :------------------------------- | :---------------------------------------------------------------------- |
+| GTX 10XX     | 61                     | Yes                              | Part of the "10X0 / TITAN Xp" category.                                 |
+| RTX 20XX     | 75                     | Yes                              | Part of the "20X0" category.                                            |
+| RTX 30XX     | 86                     | Yes                              | Part of the "30X0" category.                                            |
+| RTX 40XX     | 89                     | Yes                              | Part of the "40X0" category.                                            |
+| RTX 50XX     | (Implied 90+)          | Yes (likely)                     | Not explicitly in table, but likely to align with or exceed H100's 90. |
 
 Made with ❤️ in [Morocco](https://www.google.com/search?q=Morocco&client=firefox-b-d&sca_esv=0c2e3acf227f4533&sxsrf=AE3TifPxQHRmqHBLU2o4tpsh0hnbHAfeew%3A1753568930760&ei=olaFaJOgLoqIkdUP2br16AM&ved=0ahUKEwiT-dOpyduOAxUKRKQEHVldHT0Q4dUDCBA&uact=5&oq=Morocco&gs_lp=Egxnd3Mtd2l6LXNlcnAiB01vcm9jY28yChAjGIAEGCcYigUyChAuGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyDhAuGIAEGMcBGMsBGK8BSP8fULAFWP8JcAF4AZABAJgBfaAB0QKqAQMwLjO4AQPIAQD4AQGYAgSgAt8CwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAgYQABgHGB7CAgcQLhiABBgKwgIHEAAYgAQYCsICDRAuGIAEGMcBGAoYrwGYAwCIBgGQBgySBwMxLjOgB7slsgcDMC4zuAfbAsIHAzItNMgHDQ&sclient=gws-wiz-serp) 
 No AI chatbot was used to write these sentences (but not the commands)
