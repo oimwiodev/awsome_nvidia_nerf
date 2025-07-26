@@ -150,6 +150,12 @@ Zen Browser
 > 
 > ![Pasted image 20250726232653.png](/img/user/Assets/Pasted%20image%2020250726232653.png)
 
+
+> [!LINK] Official Nerfstudio Viewer Tutorial (legacy)
+> https://youtu.be/nSFsugarWzk?t=63
+> The viewer is newer in our installation and the one shown in the video can be opened using the `--vis viewer_legacy` flag so the command 
+> `ns-train nerfacto --data /workspace/exportedvideonerf` becomes `ns-train nerfacto --data /workspace/exportedvideonerf --vis viewer_legacy`
+> And yes video is intended to start at 1:03 to avoid repetition and possibly outdated instructions
 # Compatibility
 
 > [!QUESTION] Important note about GPU compatibility
