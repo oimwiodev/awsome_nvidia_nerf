@@ -32,9 +32,26 @@ Step 3: Install it
 
 ![Pasted image 20250726112642.png](/img/user/Assets/Pasted%20image%2020250726112642.png)
 
-Agree to [[Assets/UAC\|UAC]]
+Step 4: Agree to [[Assets/UAC\|UAC]]
 
 ![{10638988-A9DF-466A-BAD2-22A6A2539BCC}.png](/img/user/Assets/%7B10638988-A9DF-466A-BAD2-22A6A2539BCC%7D.png)
+
+Step 5: Follow wizard through install
+
+![Pasted image 20250726113250.png](/img/user/Pasted%20image%2020250726113250.png)
+
+Step 6: Open Docker Desktop
+
+![{AF97A6D9-732B-4623-BD3A-D82B478665F8}.png](/img/user/%7BAF97A6D9-732B-4623-BD3A-D82B478665F8%7D.png)
+
+Step 7: Click Skip or sign in
+
+
+> [!WARNING]  Information about Docker accounts
+> From what we can tell, creating a Docker account doesn't add any feature
+
+
+![Pasted image 20250726113601.png](/img/user/Pasted%20image%2020250726113601.png)
 # Start Interactive container
 
 > [!IMPORTANT] Important
