@@ -11,7 +11,7 @@
 > From: https://docs.nerf.studio/
 
 > [!DANGER] Important step if you plan to use a video
-> It's important move slowly while shooting a video to be processed as colmap is quite picky about the blurriness of photos and videos
+> It's important move slowly while shooting a video to be processed as colmap is very picky about the blurriness of photos and videos
 
 # Setup Docker Desktop 
 
@@ -74,6 +74,14 @@ docker run --gpus all `
 
 > [!WARNING] WARNING
 > Our script uses C:\nerf_projects\ which is the SYSTEM PATH TO AVOID COMPATIBILITY ISSUES INVOLVING THE WINDOWS USERNAME
+
+# Launching it
+
+Next time you want to launch it, use the following command:
+
+```
+docker start nerfstudio; docker exec -it nerfstudio bash
+```
 # Update repository and install dependencies
 
 ```
@@ -172,6 +180,7 @@ Zen Browser
 >As of the time of writing 7/27/2025 12:16:32 GMT+1
 
 ![IMG_20250727_010009 1.jpg](/img/user/Assets/IMG_20250727_010009%201.jpg)
+ns-viewer --load-config
 
 WIP
 Made with ❤️ in [Morocco](https://www.google.com/search?q=Morocco&client=firefox-b-d&sca_esv=0c2e3acf227f4533&sxsrf=AE3TifPxQHRmqHBLU2o4tpsh0hnbHAfeew%3A1753568930760&ei=olaFaJOgLoqIkdUP2br16AM&ved=0ahUKEwiT-dOpyduOAxUKRKQEHVldHT0Q4dUDCBA&uact=5&oq=Morocco&gs_lp=Egxnd3Mtd2l6LXNlcnAiB01vcm9jY28yChAjGIAEGCcYigUyChAuGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyDhAuGIAEGMcBGMsBGK8BSP8fULAFWP8JcAF4AZABAJgBfaAB0QKqAQMwLjO4AQPIAQD4AQGYAgSgAt8CwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAgYQABgHGB7CAgcQLhiABBgKwgIHEAAYgAQYCsICDRAuGIAEGMcBGAoYrwGYAwCIBgGQBgySBwMxLjOgB7slsgcDMC4zuAfbAsIHAzItNMgHDQ&sclient=gws-wiz-serp) 
