@@ -52,15 +52,19 @@
 ![Pasted image 20250726113601.png](/img/user/Assets/Pasted%20image%2020250726113601.png)
 # Start Interactive container (First time install)
 
-## Open Terminal
+## Step 1: Open Terminal
 
-![{327A8E63-A85B-4E22-B43C-1138D9763317}.png](/img/user/%7B327A8E63-A85B-4E22-B43C-1138D9763317%7D.png)
+![{327A8E63-A85B-4E22-B43C-1138D9763317}.png](/img/user/Assets/%7B327A8E63-A85B-4E22-B43C-1138D9763317%7D.png)
 
 > [!IMPORTANT] Important note about mounted folders and where they point
 > C:\nerf_projects\ points to /workspace/
 > C:\nerf_outputs points to /outputs/
 > C:\nerf_renders points to /renders/
-> This makes accessing input and output folders in Nerfstudio easier.
+> This makes accessing Nerfstudio's input and output folders easier.
+# Step 2: Run the following command
+
+> [!Question] Why?
+> To create a new docker container called nerfstudio with the required permitions
 
 ```
 docker run --gpus all `
@@ -78,7 +82,6 @@ docker run --gpus all `
 
 > [!WARNING] WARNING
 > Our script uses C:\nerf_projects\ which is the SYSTEM PATH TO AVOID COMPATIBILITY ISSUES INVOLVING THE WINDOWS USERNAME
-
 ## Update repository and install dependencies
 
 ```
@@ -92,7 +95,6 @@ Next time you want to launch it, use the following command:
 ```
 docker start nerfstudio; docker exec -it nerfstudio bash
 ```
-
 # Gather dataset
 ## Using photos (most compatible and easy but gives out possibly worse results)
 
