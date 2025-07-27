@@ -103,7 +103,7 @@ ns-process-data images --data /workspace/sourcephotos --output-dir /workspace/ex
 ```
 ns-process-data video --data /workspace/sourcevideo/video.mp4 --output-dir /workspace/exportedvideonerf
 ```
-# Train and server Web UI
+# Train and serve Web UI
 
 > [!WARNING] WARNING
 > Use the command below if you used the "Using a video (most compatible and easy but gives out possibly worse results)" method, or else it won't work!
