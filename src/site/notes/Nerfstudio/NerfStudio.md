@@ -171,14 +171,8 @@ Zen Browser
 > as well as RTX 50XX compatibility?
 >As of the time of writing 7/27/2025 12:16:32 GMT+1
 
-| GPU Series | CUDA arch (from table) | Supported (based on table entry) | Notes                                                                  |
-| :--------- | :--------------------- | :------------------------------- | :--------------------------------------------------------------------- |
-| GTX 10XX   | 61                     | Yes                              | Part of the "10X0 / TITAN Xp" category.                                |
-| RTX 20XX   | 75                     | Yes                              | Part of the "20X0" category.                                           |
-| RTX 30XX   | 86                     | Yes                              | Part of the "30X0" category.                                           |
-| RTX 40XX   | 89                     | Yes                              | Part of the "40X0" category.                                           |
-| RTX 50XX   | (Implied 90+)          | Yes (likely)                     | Not explicitly in table, but likely to align with or exceed H100's 90. |
 ![IMG_20250727_010009 1.jpg](/img/user/Assets/IMG_20250727_010009%201.jpg)
 
+WIP
 Made with ❤️ in [Morocco](https://www.google.com/search?q=Morocco&client=firefox-b-d&sca_esv=0c2e3acf227f4533&sxsrf=AE3TifPxQHRmqHBLU2o4tpsh0hnbHAfeew%3A1753568930760&ei=olaFaJOgLoqIkdUP2br16AM&ved=0ahUKEwiT-dOpyduOAxUKRKQEHVldHT0Q4dUDCBA&uact=5&oq=Morocco&gs_lp=Egxnd3Mtd2l6LXNlcnAiB01vcm9jY28yChAjGIAEGCcYigUyChAuGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyDhAuGIAEGMcBGMsBGK8BSP8fULAFWP8JcAF4AZABAJgBfaAB0QKqAQMwLjO4AQPIAQD4AQGYAgSgAt8CwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAgYQABgHGB7CAgcQLhiABBgKwgIHEAAYgAQYCsICDRAuGIAEGMcBGAoYrwGYAwCIBgGQBgySBwMxLjOgB7slsgcDMC4zuAfbAsIHAzItNMgHDQ&sclient=gws-wiz-serp) 
 No AI chatbot was used to write these sentences (but not the commands)
