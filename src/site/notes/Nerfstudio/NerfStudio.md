@@ -17,40 +17,44 @@
 
 [Link to docker's official website](https://www.docker.com/products/docker-desktop/)
 
-Step 1: Click the "Download Docker Desktop" Button
+## Step 1: Click the "Download Docker Desktop" Button
 
 ![Pasted image 20250726111336.png](/img/user/Assets/Pasted%20image%2020250726111336.png)
 
-Step 2: Choose the appropriate version for your Windows PC
+## Step 2: Choose the appropriate version for your Windows PC
 
 ![Pasted image 20250726111701.png](/img/user/Assets/Pasted%20image%2020250726111701.png)
 
 > [!WARNING] Warning
 > Currently We haven't made a macOS (due to lack of hardwaare) or Linux guide (due to lack of experience)! Please do not report issues involving those setups!
 
-Step 3: Install it
+## Step 3: Install it
 
 ![Pasted image 20250726112642.png](/img/user/Assets/Pasted%20image%2020250726112642.png)
 
-Step 4: Agree to [[Assets/UAC\|UAC]]
+## Step 4: Agree to [[Assets/UAC\|UAC]]
 
 ![{10638988-A9DF-466A-BAD2-22A6A2539BCC}.png](/img/user/Assets/%7B10638988-A9DF-466A-BAD2-22A6A2539BCC%7D.png)
 
-Step 5: Follow wizard through install
+## Step 5: Follow wizard through install
 
 ![Pasted image 20250726113250.png](/img/user/Assets/Pasted%20image%2020250726113250.png)
 
-Step 6: Open Docker Desktop
+## Step 6: Open Docker Desktop
 
 ![{AF97A6D9-732B-4623-BD3A-D82B478665F8}.png](/img/user/Assets/%7BAF97A6D9-732B-4623-BD3A-D82B478665F8%7D.png)
 
-Step 7: Click Skip or Sign in
+## Step 7: Click Skip or Sign in
 
 > [!WARNING]  Information about Docker accounts
 > From what we can tell, creating a Docker account doesn't add any features
 
 ![Pasted image 20250726113601.png](/img/user/Assets/Pasted%20image%2020250726113601.png)
 # Start Interactive container (First time install)
+
+## Open Terminal
+
+![{327A8E63-A85B-4E22-B43C-1138D9763317}.png](/img/user/%7B327A8E63-A85B-4E22-B43C-1138D9763317%7D.png)
 
 > [!IMPORTANT] Important note about mounted folders and where they point
 > C:\nerf_projects\ points to /workspace/
