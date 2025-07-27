@@ -75,6 +75,12 @@ docker run --gpus all `
 > [!WARNING] WARNING
 > Our script uses C:\nerf_projects\ which is the SYSTEM PATH TO AVOID COMPATIBILITY ISSUES INVOLVING THE WINDOWS USERNAME
 
+## Update repository and install dependencies
+
+```
+apt update
+apt install -y git
+```
 # Launching it
 
 Next time you want to launch it, use the following command:
@@ -82,12 +88,7 @@ Next time you want to launch it, use the following command:
 ```
 docker start nerfstudio; docker exec -it nerfstudio bash
 ```
-# Update repository and install dependencies
 
-```
-apt update
-apt install -y git
-```
 # Gather dataset
 ## Using photos (most compatible and easy but gives out possibly worse results)
 
