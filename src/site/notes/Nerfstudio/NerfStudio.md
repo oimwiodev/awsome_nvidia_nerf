@@ -17,6 +17,10 @@
 
 [Link to docker's official website](https://www.docker.com/products/docker-desktop/)
 
+# Requirements:
+
+* An x86 machine running windows
+* An Nvidia Graphics card
 ## Step 1: Click the "Download Docker Desktop" Button
 
 ![Pasted image 20250726111336.png](/img/user/Assets/Pasted%20image%2020250726111336.png)
@@ -26,7 +30,7 @@
 ![Pasted image 20250726111701.png](/img/user/Assets/Pasted%20image%2020250726111701.png)
 
 > [!WARNING] Warning
-> Currently We haven't made a macOS (due to lack of hardwaare) or Linux guide (due to lack of experience)! Please do not report issues involving those setups!
+> Currently We haven't made a macOS (due to lack of official support) or Linux guide (due to lack of experience)! Please do not report issues involving those setups!
 
 ## Step 3: Install it
 
