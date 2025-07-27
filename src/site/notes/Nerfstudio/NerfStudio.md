@@ -117,13 +117,13 @@ ns-process-data video --data /workspace/sourcevideo/video.mp4 --output-dir /work
 > [!WARNING] WARNING
 > Use the command below if you used the "Using a video (most compatible and easy but gives out possibly worse results)" method, or else it won't work!
 
-If you used a video
+## If you used a video
 
 ```
 ns-train nerfacto --data /workspace/exportedvideonerf
 ```
 
-If you used photos
+## If you used photos
 
 ```
 ns-train nerfacto --data /workspace/exportedphotonerf
@@ -133,6 +133,8 @@ ns-train nerfacto --data /workspace/exportedphotonerf
 > Please do not close this window or else you will stop the training
 > 
 > ![{AEDB6E3E-A005-4BB1-B4A7-38B14922ED61}.png](/img/user/Assets/%7BAEDB6E3E-A005-4BB1-B4A7-38B14922ED61%7D.png)
+
+# How to open Web UI?
 
 > [!INFORMATION] How to open Web UI?
 > The Web UI runs at localhost:7007
@@ -158,6 +160,8 @@ Zen Browser
 > 
 > ![{9240933E-126C-4F27-B13F-3DEA6A7CFC06}.png](/img/user/Assets/%7B9240933E-126C-4F27-B13F-3DEA6A7CFC06%7D.png)
 
+# Understanding the command prompt
+
 > [!NOTE] Understanding the command prompt
 > The text highlighted in red shows the completion percentage of the Nerf
 > 
@@ -167,6 +171,7 @@ Zen Browser
 > 
 > ![Pasted image 20250726232653.png](/img/user/Assets/Pasted%20image%2020250726232653.png)
 
+# Official Nerfstudio Viewer Tutorial (legacy)
 
 > [!LINK] Official Nerfstudio Viewer Tutorial (legacy)
 > https://youtu.be/nSFsugarWzk?t=63
