@@ -96,6 +96,17 @@ apt install -y git
 
 Next time you want to launch it, use the following command:
 
+
+> [!DANGER] Important READ
+> If running the below command gives out this error:
+> 
+> `PS C:\Users\oimwio> docker start nerfstudio; docker exec -it nerfstudio bash`
+`error during connect: Post "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.51/containers/nerfstudio/start": open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.`
+`Error: failed to start containers: nerfstudio`
+`error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.51/containers/nerfstudio/json": open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.`
+Try to open the docker desktop app and try again !
+
+
 ```
 docker start nerfstudio; docker exec -it nerfstudio bash
 ```
